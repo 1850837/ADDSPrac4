@@ -3,7 +3,7 @@ using namespace std;
 
 vector<int> Finder::findSubstrings(string s1, string s2) {
     vector<int> result;
-    for(int j = 0; j < s2.size(); j++){
+    for(size_t j = 0; j < s2.size(); j++){
         result.push_back(-1);
     }
 
